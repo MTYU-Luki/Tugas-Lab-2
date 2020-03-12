@@ -1,0 +1,6 @@
+E:\Tugas Perkuliahan\Visual Studi\Kalkulator\Kalkulator\obj\Debug\Kalkulator.csprojAssemblyReference.cache
+E:\Tugas Perkuliahan\Visual Studi\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe.config
+E:\Tugas Perkuliahan\Visual Studi\Kalkulator\Kalkulator\bin\Debug\Kalkulator.exe
+E:\Tugas Perkuliahan\Visual Studi\Kalkulator\Kalkulator\bin\Debug\Kalkulator.pdb
+E:\Tugas Perkuliahan\Visual Studi\Kalkulator\Kalkulator\obj\Debug\Kalkulator.exe
+E:\Tugas Perkuliahan\Visual Studi\Kalkulator\Kalkulator\obj\Debug\Kalkulator.pdb
