@@ -9,15 +9,20 @@ namespace Kalkulator
 	class Program
 	{
 		static void Main(string[] args)
+
 		{
-			Console.WriteLine(" Pilih Menu Berikut : ");
+			Console.Title ="Kalkulator Apps";
+			Console.WriteLine(" Kalkulator APPS ");
+			Console.WriteLine();
+			Console.WriteLine(" Pilih Menu Dibawah ini ");
+			Console.WriteLine("========================");
 		Menu:
 			Console.WriteLine("1. Penjumlahan");
 			Console.WriteLine("2. Pengurangan");
 			Console.WriteLine("3. Perkalian");
 			Console.WriteLine("4. Pembagian");
 			Console.WriteLine();
-			Console.Write("Masukan Pilihan anda 1-4 : ");
+			Console.Write("Masukan Pilihan anda [1-4] : ");
 			int pil = Convert.ToInt32(Console.ReadLine());
 
 			if (pil >0 && pil <5)
@@ -44,7 +49,7 @@ namespace Kalkulator
 				}
 
 				Console.WriteLine();
-				Console.Write("Apakah Igin lagi (y/t) : ");
+				Console.Write("Apakah Ingin lagi (y/t) : ");
 				string lagi = (Console.ReadLine());
 				if (lagi == "y")
 				{
@@ -53,9 +58,10 @@ namespace Kalkulator
 			}
 			else
 			{
-				Console.WriteLine("gk ada");
+				Console.WriteLine("Nomor Yang anda Masukan Tidak ada dalam daftar");
 			}
 			Console.WriteLine("Tekan sembarang untuk keluar");
+			Console.ReadLine();
 		}
 
 		static int penjumlahan(int a, int b)
